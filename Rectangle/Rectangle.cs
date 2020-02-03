@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Rectangle
 {
-    public class Rectangle
+    public  class Rectangle
     {
         // variable declare
         private int length;
@@ -12,19 +12,12 @@ namespace Rectangle
         // default construtor 
         public Rectangle() 
         {
-            length = 1;
-            width = 1;
+             length = 1;
+             width = 1;
             
         }
 
-        // non- constructor 
-        public  Rectangle ( int length, int width)
-        {
-            this.length = length;
-            this.width = width;
-        }
-
-        //Six  Methods
+      //Six  Methods for Rectangle class
 
         public int GetLength()
         {
@@ -33,7 +26,7 @@ namespace Rectangle
 
         public int SetLength(int length)
         {
-            return this.length = length;
+             return this.length = length;
         }
 
 
@@ -43,20 +36,29 @@ namespace Rectangle
             return width;
         }
 
-        public int SetWidth(int width)
+        public int  SetWidth(int width)
         {
-            return this.width = width;
+              return this.width = width;
         }
 
         public int GetPerimeter()
         {
-            return GetPerimeter();
+            return 2 * (length + width);
         }
 
 
         public int GetArea()
         {
-            return GetArea();
+            return  width * length;
+            
         }
+        // non- constructor 
+        public Rectangle(int length, int width)
+        {
+            this.length = length ;
+            this.width  = width ;
+        }
+
     }
+
 }
