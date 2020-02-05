@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Rectangle/v16
+/NUnitTestProject1/bin/Debug/netcoreapp3.1
+/NUnitTestProject1/obj
+/Rectangle_Test/bin/Debug/netcoreapp3.1
+/Rectangle_Test/obj
+/.vs/Rectangle/DesignTimeBuild

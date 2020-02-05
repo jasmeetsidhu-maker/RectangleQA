@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+
 namespace Rectangle
 {
     class Program : Rectangle
@@ -12,58 +11,6 @@ namespace Rectangle
             Rectangle a = new Program();
             int len;
             int wid;
-            Console.WriteLine("Welcome \n");
-            Console.WriteLine("1. Please enter Length of rectangle");
-            Console.WriteLine("2. Please enter Width of rectangle\n");
-            bool again = true;
-            while (again)
-            {
-                try
-                {
-                    do
-                    {
-                        len = int.Parse(Console.ReadLine());
-                        
-                        if (len <= 0)
-                        {
-                            Console.WriteLine(" Please enter valid value ( more than zero) please enter again \n");
-                            Console.ReadLine();
-                        }
-                        else
-                        {
-                            a.SetLength(len);
-                        }
-                    }
-
-                    while (len < 0);
-
-                    do
-                    {
-                        wid = int.Parse(Console.ReadLine());
-
-                        if (wid <= 0)
-                        {
-                            Console.WriteLine(" Please enter valid value ( more than zero) please enter again \n");
-                            Console.ReadLine();
-                        }else
-                        {
-                            a.SetWidth(wid);
-                        }
-                    }while (wid < 0);
-                    again = false;
-
-
-                }
-                catch (Exception)
-                {
-
-                    Console.WriteLine("The input is wrong please enter both integer value again \n");
-
-
-                };
-            }
-
-
 
             bool repeat = true;
             while (repeat)
@@ -86,18 +33,49 @@ namespace Rectangle
                     {
                         case 1:
 
-                            Console.WriteLine("\n Value is : "+ a.GetLength());
+                            Console.WriteLine("\n Value is : " + a.GetLength());
 
                             break;
                         case 2:
                             //int length;
 
-                            Console.WriteLine("\n Please enter Length of rectangle:");
+                            bool again = true;
+                            while (again)
+                            {
+                                try
+                                {
+                                    do
+                                    {
+                                        Console.WriteLine("1. Please enter Length of rectangle");
+                                        len = int.Parse(Console.ReadLine());
 
-                            a.SetLength(int.Parse(Console.ReadLine()));
+                                        if (len <= 0)
+                                        {
+                                            Console.WriteLine(" Please enter valid value ( more than zero) please enter again \n");
+                                            
+                                        }
+                                        else
+                                        {
+                                            a.SetLength(len);
+                                        }
+                                        
 
 
-                            break;
+                                    } while (len <= 0);
+                                    again = false;
+                                }
+                                catch (Exception)
+                                {
+
+                                    Console.WriteLine("The input is wrong please enter both integer value again \n");
+
+
+                                }
+
+                            }
+
+                                break;
+                            
 
                         case 3:
 
@@ -107,10 +85,38 @@ namespace Rectangle
                             break;
                         case 4:
 
-                            Console.WriteLine("\n Please enter width of rectangle:");
-                            a.SetWidth(int.Parse(Console.ReadLine()));
+                            bool again1 = true;
+                            while (again1)
+                            {
+                                try
+                                {
+                                    do
+                                    {
+                                        Console.WriteLine("2. Please enter Width of rectangle\n");
+                                        wid = int.Parse(Console.ReadLine());
 
-                            break;
+                                        if (wid <= 0)
+                                        {
+                                            Console.WriteLine(" Please enter valid value ( more than zero) please enter again \n");
+                                            
+                                        }
+                                        else
+                                        {
+                                            a.SetWidth(wid);
+                                        }
+                                        
+                                    } while (wid <= 0);
+                                    again1 = false;
+                                }
+                                catch (Exception)
+                                {
+
+                                    Console.WriteLine("The input is wrong please enter both integer value again \n");
+
+
+                                }
+                            }
+                                break;
                         case 5:
 
                             Console.WriteLine(a.GetPerimeter());

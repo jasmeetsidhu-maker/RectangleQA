@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace Rectangle
 {
     public  class Rectangle
     {
-        // variable declare
+        // variable dec
         private int length;
         private int width;
         // default construtor 
