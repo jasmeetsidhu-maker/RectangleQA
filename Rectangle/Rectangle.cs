@@ -38,11 +38,14 @@ namespace Rectangle
               return this.width = width;
         }
 
+        // to get perimeter value
+
         public int GetPerimeter()
         {
             return 2 * (length + width);
         }
 
+        // to get area value 
 
         public int GetArea()
         {

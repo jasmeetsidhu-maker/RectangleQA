@@ -7,11 +7,11 @@ namespace Rectangle
         static void Main(string[] args)
         {
 
-
+            // variable declare
             Rectangle a = new Program();
             int len;
             int wid;
-
+            // Repeat condition if wrong input
             bool repeat = true;
             while (repeat)
             {
@@ -28,16 +28,20 @@ namespace Rectangle
                     Console.WriteLine("7. Exit\n");
                     int userInput = int.Parse(Console.ReadLine());
 
-
+                    //  All Seven Options for user 
                     switch (userInput)
                     {
+
+                        // get default value and update value
                         case 1:
 
                             Console.WriteLine("\n Value is : " + a.GetLength());
 
                             break;
+
+
                         case 2:
-                            //int length;
+                            //change length value 
 
                             bool again = true;
                             while (again)
@@ -78,12 +82,14 @@ namespace Rectangle
                             
 
                         case 3:
-
+                            // get default value and update value
 
                             Console.WriteLine("\n Value is : " + a.GetWidth());
 
                             break;
+
                         case 4:
+                            //change width value 
 
                             bool again1 = true;
                             while (again1)
@@ -119,16 +125,18 @@ namespace Rectangle
                                 break;
                         case 5:
 
+                            // Get Perimeter
+
                             Console.WriteLine(a.GetPerimeter());
 
                             break;
                         case 6:
-
+                            // Get area result 
                             Console.WriteLine(a.GetArea());
 
                             break;
                         case 7:
-
+                            //exit menu
                             Console.WriteLine("Thank you.\n");
                             System.Environment.Exit(0);
                             repeat = false;
