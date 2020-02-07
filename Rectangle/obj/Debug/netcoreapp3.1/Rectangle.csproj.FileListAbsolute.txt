@@ -4,8 +4,8 @@ C:\Users\Laptop JI\Desktop\Rectangle\Rectangle\bin\Debug\netcoreapp3.1\Rectangle
 C:\Users\Laptop JI\Desktop\Rectangle\Rectangle\bin\Debug\netcoreapp3.1\Rectangle.runtimeconfig.dev.json
 C:\Users\Laptop JI\Desktop\Rectangle\Rectangle\bin\Debug\netcoreapp3.1\Rectangle.dll
 C:\Users\Laptop JI\Desktop\Rectangle\Rectangle\bin\Debug\netcoreapp3.1\Rectangle.pdb
+C:\Users\Laptop JI\Desktop\Rectangle\Rectangle\obj\Debug\netcoreapp3.1\Rectangle.csprojAssemblyReference.cache
 C:\Users\Laptop JI\Desktop\Rectangle\Rectangle\obj\Debug\netcoreapp3.1\Rectangle.AssemblyInfoInputs.cache
 C:\Users\Laptop JI\Desktop\Rectangle\Rectangle\obj\Debug\netcoreapp3.1\Rectangle.AssemblyInfo.cs
 C:\Users\Laptop JI\Desktop\Rectangle\Rectangle\obj\Debug\netcoreapp3.1\Rectangle.dll
 C:\Users\Laptop JI\Desktop\Rectangle\Rectangle\obj\Debug\netcoreapp3.1\Rectangle.pdb
-C:\Users\Laptop JI\Desktop\Rectangle\Rectangle\obj\Debug\netcoreapp3.1\Rectangle.csprojAssemblyReference.cache

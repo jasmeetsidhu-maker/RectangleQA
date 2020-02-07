@@ -127,12 +127,12 @@ namespace Rectangle
 
                             // Get Perimeter
 
-                            Console.WriteLine(a.GetPerimeter());
+                            Console.WriteLine("The Perimeter Result:  " + a.GetPerimeter());
 
                             break;
                         case 6:
                             // Get area result 
-                            Console.WriteLine(a.GetArea());
+                            Console.WriteLine("The Area Result:  " + a.GetArea());
 
                             break;
                         case 7:
